@@ -10,6 +10,9 @@ namespace L_D
     {
         static void Main(string[] args)
         {
+            // bad L
+            BadL bl = new BadL();
+            bl.runBadBL();
         }
     }
 }
