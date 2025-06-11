@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L_D.D
+namespace L_D.DBad
 {
     public class Soldier
     {
