@@ -59,7 +59,7 @@ namespace L_D.L
         }
     }
 
-    internal class GoodL
+    internal class GoodLInterfaces
     {
         public void RunGoodL()
         {
