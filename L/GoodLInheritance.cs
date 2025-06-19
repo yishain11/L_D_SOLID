@@ -75,7 +75,7 @@ namespace L_D.L_Inheritance
 
             range.RunShootingRange(fighters);
 
-            var instructor = new TeacherSoldier { Name = "Naomi" };
+            TeacherSoldier instructor = new TeacherSoldier { Name = "Naomi" };
             instructor.Report();
             instructor.Teach();
         }

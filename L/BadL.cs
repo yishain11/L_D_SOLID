@@ -68,7 +68,7 @@ namespace L_D
                 new Sniper(),
                 // but what happens if we add a soldier that cannot
                 // shoot?
-                new TeacherSoldier()
+                //new TeacherSoldier()
 
             };
             ShootingRange sr = new ShootingRange();

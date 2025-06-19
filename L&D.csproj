@@ -43,16 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="D\BadD.cs" />
+    <Compile Include="D\GoodD.cs" />
     <Compile Include="L\BadL.cs" />
-    <Compile Include="L\GoodL.cs" />
+    <Compile Include="L\GoodLInheritance.cs" />
+    <Compile Include="L\GoodLInterfaces.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="D\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
